@@ -50,7 +50,7 @@ The dataset contains details about building permits issued by the City of Vancou
 ---
 
 ## Descriptive Analysis
-
+https://github.com/KoushikJ16/Data-Analyst-Koushik/blob/2fa75ecb6b93ab62fe1a6a416477c42a4dfbfde3/Screenshot%202024-12-11%20134810.png
 ### Project Description:
 Descriptive Analysis of Building Permits in Vancouver
 
