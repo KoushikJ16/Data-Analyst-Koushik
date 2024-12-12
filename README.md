@@ -1,6 +1,6 @@
 # Data-Analyst-Koushik
 ## Exploratory Data Analysis
-
+![Screenshot Description](Screenshot%202024-12-11%20193556.png)
 ### Project Description:
 Exploratory Data Analysis (EDA) on Building Permits Dataset
 
@@ -19,6 +19,7 @@ The dataset contains details about building permits issued by the City of Vancou
 
 ### Methodology:
 #### Data Collection and Preparation:
+![Screenshot Description](Screenshot%202024-12-11%20194121.png)
 1. **Ingestion:**
    - Uploaded the raw dataset to an Amazon S3 bucket named `ibp-raw-kou`.
    - Identified critical fields (`yearmonth`, `permitcategory`, `specificusecategory`) for the analysis.
@@ -29,6 +30,7 @@ The dataset contains details about building permits issued by the City of Vancou
    - Ensured no null or missing values in key fields.
 
 #### Analysis:
+![Screenshot Description](Screenshot%202024-12-11%20194501.png)
 4. **Data Pipeline Design:**
    - Designed an ETL pipeline in AWS Glue Studio to group data by `yearmonth`.
    - Counted permits issued for each month.
@@ -50,7 +52,7 @@ The dataset contains details about building permits issued by the City of Vancou
 ---
 
 ## Descriptive Analysis
-https://github.com/KoushikJ16/Data-Analyst-Koushik/blob/2fa75ecb6b93ab62fe1a6a416477c42a4dfbfde3/Screenshot%202024-12-11%20134810.png
+![Description of Image](Screenshot%202024-12-11%20134810.png)
 ### Project Description:
 Descriptive Analysis of Building Permits in Vancouver
 
@@ -69,6 +71,7 @@ The dataset includes geographical and categorical details of permits issued in V
 
 ### Methodology:
 #### Data Collection and Preparation:
+![Screenshot Description](Screenshot%202024-12-11%20194236.png)
 1. **Ingestion:**
    - Loaded data into an Amazon S3 bucket.
    - Focused on fields like `geolocalarea`, `permitcategory`, and `yearmonth`.
@@ -80,6 +83,8 @@ The dataset includes geographical and categorical details of permits issued in V
    - Filtered rows to retain only permits issued in 2024.
 
 #### Analysis:
+![Screenshot showing the project](Screenshot%202024-12-11%20193456.png)
+
 4. **Data Pipeline Design:**
    - Grouped data by `geolocalarea`.
    - Counted permits for each area and calculated the percentage distribution.
